@@ -18,14 +18,11 @@ A Python + ZeroMQ (`REQ`/`REP`) microservice that calculates an itemized trip co
    # or:
    TRIP_COST_PORT=6000 python3 server.py
    ```
-3. Run the example client in a second terminal:
+3. Run the client in a second terminal:
    ```bash
    python3 client_example.py
    ```
-4. Run the automated test suite:
-   ```bash
-   python3 -m unittest discover -v
-   ```
+
 
 ---
 
